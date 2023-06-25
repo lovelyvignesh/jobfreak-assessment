@@ -1,0 +1,27 @@
+#leftPanel {
+    width: 170px;
+    height: 100%;
+    background-color: rgb(158, 156, 156);
+    float: left;
+}
+body{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(75,14,154,1) 35%, rgba(0,212,255,1) 100%);
+}
+#content {
+    padding: 100px;
+    width: 70%;
+    text-align: center;
+    height: 150px;
+    font-weight: bold;
+    font-size: xx-large;
+    background-color: rgb(158, 156, 156);
+    float: right;
+    letter-spacing: 1px;
+}
+.component {
+    padding: 10px;
+    cursor: pointer;
+}
+.component:hover {
+    background-color: rgb(110, 19, 215);
+}
